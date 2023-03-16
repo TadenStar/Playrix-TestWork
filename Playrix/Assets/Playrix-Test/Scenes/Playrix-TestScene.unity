@@ -4481,6 +4481,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 547046833420428491, guid: 20e5bad98b366bc46b1daf2a4079a255, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.9222527
+      objectReference: {fileID: 0}
+    - target: {fileID: 547046833420428491, guid: 20e5bad98b366bc46b1daf2a4079a255, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7.9222527
+      objectReference: {fileID: 0}
+    - target: {fileID: 547046833420428491, guid: 20e5bad98b366bc46b1daf2a4079a255, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.9222527
+      objectReference: {fileID: 0}
+    - target: {fileID: 547046833420428491, guid: 20e5bad98b366bc46b1daf2a4079a255, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -4528,9 +4540,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1368726286436912308, guid: 20e5bad98b366bc46b1daf2a4079a255, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2329198099791216189, guid: 20e5bad98b366bc46b1daf2a4079a255, type: 3}
       propertyPath: m_Name
       value: Dimonds_Parts
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329198099791216189, guid: 20e5bad98b366bc46b1daf2a4079a255, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708686353054869388, guid: 20e5bad98b366bc46b1daf2a4079a255, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7243917510770237555, guid: 20e5bad98b366bc46b1daf2a4079a255, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222297541153760345, guid: 20e5bad98b366bc46b1daf2a4079a255, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20e5bad98b366bc46b1daf2a4079a255, type: 3}
@@ -4542,6 +4574,11 @@ RectTransform:
 --- !u!198 &2905758721615777386 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 7813934877056724549, guid: 20e5bad98b366bc46b1daf2a4079a255, type: 3}
+  m_PrefabInstance: {fileID: 2905758721615777384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2905758721615777387 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7288599983486324728, guid: 20e5bad98b366bc46b1daf2a4079a255, type: 3}
   m_PrefabInstance: {fileID: 2905758721615777384}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4604651034726658632
@@ -5323,6 +5360,26 @@ PrefabInstance:
       propertyPath: m_ParticleSystem
       value: 
       objectReference: {fileID: 2905758721615777386}
+    - target: {fileID: 1342580693507600322, guid: 85457fa8c1403ca488f2c348571d3b8f, type: 3}
+      propertyPath: m_OnAttracted.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1342580693507600322, guid: 85457fa8c1403ca488f2c348571d3b8f, type: 3}
+      propertyPath: m_OnAttracted.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1342580693507600322, guid: 85457fa8c1403ca488f2c348571d3b8f, type: 3}
+      propertyPath: m_OnAttracted.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2905758721615777387}
+    - target: {fileID: 1342580693507600322, guid: 85457fa8c1403ca488f2c348571d3b8f, type: 3}
+      propertyPath: m_OnAttracted.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1342580693507600322, guid: 85457fa8c1403ca488f2c348571d3b8f, type: 3}
+      propertyPath: m_OnAttracted.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6149415199118882646, guid: 85457fa8c1403ca488f2c348571d3b8f, type: 3}
       propertyPath: m_Name
       value: DimondsAttractor
